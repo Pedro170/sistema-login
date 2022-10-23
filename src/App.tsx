@@ -10,7 +10,7 @@ const App = () => {
       <Header />
       <main className='main'>
         <Dashboard />
-        <Router />
+        <section className='home'><Router /></section>
       </main>
     </>
   );

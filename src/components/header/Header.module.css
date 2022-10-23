@@ -30,9 +30,20 @@
   border-color: transparent;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 1rem;
   transition: .3s;
 }
 
 .header a:hover {
   border-color: #333;
+}
+
+.header .exit {
+  border: none;
+  background: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .98rem;
+  transition: .3s;
+  color: #333;
 }
